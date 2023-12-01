@@ -1,0 +1,27 @@
+{
+  "name": "tether-backend-test",
+  "version": "1.0.0",
+  "description": "Tether backend coding challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlee2454/tether-backend-test.git"
+  },
+  "keywords": [
+    "hyperswarm",
+    "hypercore",
+    "hyperbee",
+    "hyperdht",
+    "rpc",
+    "p2p"
+  ],
+  "author": "David Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlee2454/tether-backend-test/issues"
+  },
+  "homepage": "https://github.com/davidlee2454/tether-backend-test#readme"
+}
