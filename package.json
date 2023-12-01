@@ -4,7 +4,8 @@
   "description": "Tether backend coding challenge",
   "main": "src/index.js",
   "scripts": {
-    "test": "src/test.js"
+    "start": "node src/index.js",
+    "test": "node src/test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/davidlee2454/tether-backend-test/issues"
   },
-  "homepage": "https://github.com/davidlee2454/tether-backend-test#readme"
+  "homepage": "https://github.com/davidlee2454/tether-backend-test#readme",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.0",
+    "crypto": "^1.0.1",
+    "hyperbee": "^2.18.1",
+    "hypercore": "^10.31.10",
+    "hyperdht": "^6.11.0"
+  }
 }
